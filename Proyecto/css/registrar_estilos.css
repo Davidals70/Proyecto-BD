@@ -82,6 +82,26 @@ header nav a.activo {
 	align-items: end;
 }
 
+.Formulario .Pintura{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/Pintura.jpg);
+	height: 900px;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.Formulario .Moneda{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/Moneda.jpg);
+	height: 1200px;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
 .Formulario .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
@@ -118,6 +138,7 @@ input, #country {
 }
 
 .Formulario .boton {
+	position: relative;
 	text-align: center;
 	background: rgba(0,0,0, 0.5);
 	border: none;
@@ -129,11 +150,37 @@ input, #country {
 	font-size: 1.45em;
 }
 
+.Formulario .boton_opcion {
+	display: block;
+	float: left;
+	text-align: center;
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-left: 15%;
+	cursor: pointer;
+	font-size: 1.8em;
+	height: 10em;
+}
+
+#Registrar_Pintura:hover{
+	background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%),url(../img/Pintura.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+#Registrar_Moneda:hover{
+	background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%),url(../img/Moneda.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
 .Formulario .boton:hover {
 	background: #fff;
 	color: #000;
 }
-
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
