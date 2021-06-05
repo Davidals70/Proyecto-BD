@@ -84,7 +84,7 @@ header nav a.activo {
 
 .Formulario .Pintura{
 	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/Pintura.jpg);
-	height: 900px;
+	height: 1200px;
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -94,7 +94,7 @@ header nav a.activo {
 
 .Formulario .Moneda{
 	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/Moneda.jpg);
-	height: 1200px;
+	height: 1700px;
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -141,25 +141,22 @@ header nav a.activo {
 	margin-bottom: 1em;
 }
 
-p{
-	float:left;
+label{
 	display: block;
-	position: relative;
-	top: 0.4em;
-	color:rgba(255,255,255, 0.7);
-	text-align:left;
+	bottom: 3.5em;
+	color:rgba(255,255,255, 1);
 	font-weight: 600;
-	font-size: 15px;
-	margin-left: 14em;
+	font-size: 1.25em;
+	text-align: center;
 }
 
-input, #country {
+input {
 	background: rgba(255,255,255, 0.5);
 	display: block;
 	text-align:left;
 	font-weight: 600;
 	font-size: 1.25em;
-	margin-left: 30%;
+	margin:auto;
 	margin-bottom: 1.5em;
 	width: 41%;
 }
@@ -172,7 +169,8 @@ input, #country {
 	border-radius: 0.31em;
 	padding: 0.93em 1.87em;
 	color: #fff;
-	margin-left: 43%;
+	margin:auto;
+	display: block;
 	cursor: pointer;
 	font-size: 1.45em;
 }
@@ -237,8 +235,4 @@ input, #country{
 	width: 200px;
 }
 
-	.Formulario .boton{
-		margin-left: 30%;
-		margin-right: 30%;
-	}
 }
